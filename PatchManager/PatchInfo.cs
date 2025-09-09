@@ -118,6 +118,8 @@ namespace PatchManager
         public PatchInfo(ConfigNode n)
         {
             modName = n.GetValue("modName");
+            if (modName == null || modName == "")
+                modName = n.GetValue("modname");
             patchName = n.GetValue("patchName");
             srcPath = n.GetValue("srcPath");
             shortDescr = n.GetValue("shortDescr");

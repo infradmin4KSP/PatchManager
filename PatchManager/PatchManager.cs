@@ -413,7 +413,7 @@ namespace PatchManager
                         if (!System.IO.File.Exists(pi.activePatchPath))
                         {
                             ScreenMessages.PostScreenMessage("Patch file: " + pi.activePatchPath + " missing", 5);
-                            Log.InfoAlways("Patch file: " + pi.activePatchPath + " missing");
+                            Log.InfoAlways("Patch file: [" + pi.activePatchPath + "] missing");
                         }
                         else
                         {
@@ -430,7 +430,7 @@ namespace PatchManager
                         if (System.IO.File.Exists(pi.inactivePatchPath))
                             File.Copy(pi.inactivePatchPath, pi.activePatchPath);
                         else
-                            ScreenMessages.PostScreenMessage("Patch file: " + pi.inactivePatchPath + " missing", 5);
+                            ScreenMessages.PostScreenMessage("Patch file: [" + pi.inactivePatchPath + "] missing", 5);
                         Log.InfoAlways("Patch file: " + pi.inactivePatchPath + " missing");
                     }
                 }

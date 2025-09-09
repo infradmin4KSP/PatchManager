@@ -1,5 +1,9 @@
 ChangeLog
 
+0.0.17.7
+	Added code to look for "modname" if "modName" is not found (web page had a typo)
+	Updated version file to look for version info from Github
+
 0.0.17.6
 	Thanks for @HebaruSan for this fix:
 		Fixed a couple of other places where relative paths where used to save settings outside game folder
