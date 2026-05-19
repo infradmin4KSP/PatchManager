@@ -2,6 +2,7 @@
 @echo off
 
 set H=%KSPDIR%
+
 set GAMEDIR=PatchManager
 set GAMEDATA="GameData"
 set VERSIONFILE=%GAMEDIR%.version

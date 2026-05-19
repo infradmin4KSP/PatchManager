@@ -1,5 +1,9 @@
 ChangeLog
 
+0.0.17.8
+	Thanks to github user @tsingshitao-nuke for this:
+		Added Chinese localization
+
 0.0.17.7
 	Added code to look for "modname" if "modName" is not found (web page had a typo)
 	Updated version file to look for version info from Github
