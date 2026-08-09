@@ -68,7 +68,8 @@ namespace PatchManager
         public override bool HasPresets { get { return true; } }
 
 
-        [GameParameters.CustomParameterUI("Mod Enabled")]
+        [GameParameters.CustomParameterUI(Localizer.Format("pm_modenabled"))]
+
         public bool EnabledForSave = true;      // is enabled for this save file
 
 
